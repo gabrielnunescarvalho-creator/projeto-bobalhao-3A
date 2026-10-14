@@ -9,6 +9,42 @@ body {
 header{
     margin-bottom:20px
 }
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #2a2aa3;
+    margin: 0;
+    padding: 20px;
+}
+
+header{
+    margin-bottom:20px
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #0f95c2;
+    color: white;
+    border: none; 
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.grid{
+    display: grid; 
+    gap: 2px;
+    background: #1c8db3;
+}
+
 
 button{
     padding: 10px 20px;
